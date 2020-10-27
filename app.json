@@ -1,0 +1,60 @@
+{
+    "name": "TestApp",
+    "description": "App for demonstration",
+    "details": "This is an app skeleton that
+    can be used to develop or integrate
+    all new customisations to
+    your Tookan Dashboard.
+    ",
+    "favicon": {
+        "path": "./abc.jpg"
+    },
+    "developer": "Tookan Inc",
+    "abilities": {
+        "side-menu": true,
+        "sms-gateway": true
+    }
+} {
+    "type": "button",
+    "name": "Employee",
+    "icon": "./employee.png",
+    "functionalize": {
+        "internal_functionality": false, // true if url is relative
+        "url": "www.delivery.ask4services.com/tookan",
+        "target": "_self"
+    }
+} {
+    "type": "button",
+    "name": "Manager",
+    "icon": "fa fa-thumbs-o-up",
+    "location": "app.settings.managers",
+    "functionalize": {
+        "internal_functionality": true,
+        "url": "/#/app/dashboard",
+        "target": "_self"
+    }
+}
+[{
+        "type": "button",
+        "name": "Manager",
+        "icon": "fa fa-thumbs-o-up",
+        "location": "app.settings.managers",
+        "functionalize": {
+            "internal_functionality": true,
+            "url": "/#/app/dashboard",
+            "target": "_self"
+        }
+    },
+    {
+        "type": "button",
+        "name": "Driver",
+        "location": "app.settings.workflow",
+        "icon": "fa fa-power-off",
+        "functionalize": {
+            "internal_functionality": true,
+            "url": "",
+            "target": "_self"
+        }
+    }
+
+]
